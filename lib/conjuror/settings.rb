@@ -23,11 +23,16 @@ module Conjuror
       File.join(self.directory, @file + ".yml")
     end
 
+    def reload
+      self.use @name, @file
+    end
+
     # def reload
     #   self.use @name, @file
     # end
 
     def [] key
+      self.reload
       @data[key]
     end
 
