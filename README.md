@@ -5,6 +5,12 @@ Easily conjure configuration settings for your standalone ruby applications.
 user's home directory, and allow each project to have a unique and separate
 configuration directory of itself.
 
+[![Build Status](https://travis-ci.org/nikhgupta/conjuror.png?branch=develop)](https://travis-ci.org/nikhgupta/conjuror)
+[![Coverage Status](https://coveralls.io/repos/nikhgupta/conjuror/badge.png)](https://coveralls.io/r/nikhgupta/conjuror)
+[![Code Climate](https://codeclimate.com/github/nikhgupta/conjuror.png)](https://codeclimate.com/github/nikhgupta/conjuror)
+[![Gem Version](https://badge.fury.io/rb/conjuror.png)](http://badge.fury.io/rb/conjuror)
+[![Dependency Status](https://gemnasium.com/nikhgupta/conjuror.png)](https://gemnasium.com/nikhgupta/conjuror)
+
 ## Installation
 
 Add this line to your application's Gemfile:

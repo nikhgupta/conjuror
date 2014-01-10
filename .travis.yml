@@ -9,6 +9,12 @@ rvm:
   - jruby-19mode
   - jruby-head
   - ree
+matrix:
+  allow_failures:
+    - rvm: ruby-head
+    - rvm: jruby-18mode
+    - rvm: jruby-19mode
+    - rvm: jruby-head
 before_install:
   - gem update --system 2.1.11
   - gem --version
